@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Fun with Flags!"
+        android:text="Fun With Flags!"
         android:textSize="25sp"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -59,10 +59,11 @@
                 style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:id="@+id/et_name"
                     android:layout_height="wrap_content"
                     android:textColor="#343A43"
                     android:inputType="textCapWords"
-                    android:hint="e.g. Henry"
+                    android:hint="e.g. John Doe"
                     />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,11 +71,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:id="@+id/btn_start"
                 android:text="Start!"
                 android:background="@color/design_default_color_primary"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:textStyle="cdbold"
+                android:textStyle="bold"
                 />
 
         </LinearLayout>
